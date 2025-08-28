@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ROYAL Mobile Repairing</title>
+  <style>
+    :root{--accent:#ff6b00;--dark:#111;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;color:var(--dark);line-height:1.5}
+    header{background:#0b0b0b;color:#fff;padding:18px 20px;display:flex;align-items:center;justify-content:space-between}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo .mark{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#ffb277);display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff}
+    nav a{color:#fff;text-decoration:none;margin-left:14px;font-weight:600}
+    .hero{background-image:linear-gradient(rgba(3,3,3,.45),rgba(3,3,3,.45)), url('hero.jpg');background-size:cover;background-position:center;padding:64px 20px;color:#fff;text-align:center}
+    .hero h1{font-size:32px;margin:0 0 8px}
+    .hero p{margin:0 0 18px;color:#f0e9e9}
+    .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700}
+    .container{max-width:1000px;margin:28px auto;padding:0 20px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{border-radius:12px;padding:14px;border:1px solid #eee;background:#fff;min-height:120px}
+    .card h3{margin:6px 0 8px}
+    .two{display:flex;gap:20px;align-items:flex-start}
+    .contact{background:#fafafa;padding:18px;border-radius:12px}
+    footer{padding:18px 20px;text-align:center;color:var(--muted);font-size:14px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+    .whatsapp{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;border-radius:50%;width:60px;height:60px;display:flex;align-items:center;justify-content:center;text-decoration:none;font-weight:700;box-shadow:0 6px 20px rgba(0,0,0,.2)}
+    @media(min-width:800px){.hero h1{font-size:44px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="mark">R</div>
+      <div>
+        <div style="font-weight:800">ROYGL</div>
+        <div style="font-size:12px;color:var(--muted)">Mobile Repairing</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero">
+    <h1>Mobile Repairing • Fast & Reliable</h1>
+    <p>Screen repair, battery replacement, motherboard repair &amp; software fixes. Professional service with genuine parts.</p>
+    <a class="btn" href="#contact">Book Now</a>
+  </section>  <main class="container">
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="cards" style="margin-top:12px">
+        <div class="card">
+          <h3>Screen Repair & Replacement</h3>
+          <p>Cracked or unresponsive touch? We replace screens for all major brands with warranty.</p>
+        </div>
+        <div class="card">
+          <h3>Battery & Charging</h3>
+          <p>Battery replacement, charging port repair and battery health diagnostics.</p>
+        </div>
+        <div class="card">
+          <h3>Motherboard & Component Repair</h3>
+          <p>Advanced SMD soldering, IC replacement and troubleshooting.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Software & Data Recovery</h3>
+          <p>OS reinstall, virus removal, and data recovery from damaged phones.</p>
+        </div>
+      </div>
+    </section><section id="gallery" style="margin-top:28px">
+  <h2>Gallery</h2>
+  <p style="color:var(--muted);font-size:14px;margin-top:6px">Replace the images in the <code>img</code> src attributes with your shop photos.</p>
+  <div class="gallery" style="margin-top:12px">
+    <img src="gallery1.jpg" alt="repair" style="width:100%;border-radius:8px">
+    <img src="gallery2.jpg" alt="tools" style="width:100%;border-radius:8px">
+    <img src="gallery3.jpg" alt="workbench" style="width:100%;border-radius:8px">
+    <img src="gallery4.jpg" alt="team" style="width:100%;border-radius:8px">
+  </div>
+</section>
+
+<section id="contact" style="margin-top:28px">
+  <h2>Contact & Location</h2>
+  <div class="two" style="margin-top:12px">
+    <div style="flex:1" class="contact">
+      <p style="margin:0 0 6px"><strong>Shop:</strong> ROYAL Mobile Repairing</p>
+      <p style="margin:0 0 6px"><strong>Phone:</strong> <a href="tel:+917261949253">+91 12345 67890</a></p>
+      <p style="margin:0 0 6px"><strong>WhatsApp:</strong> <a href="https://wa.me/917261949253" target="_blank">Chat on WhatsApp</a></p>
+      <p style="margin:0 0 6px"><strong>Hours:</strong> Mon–Sat 10:00–20:00</p>
+      <p style="margin:0"><strong>Address:</strong>jameel colony , Amravati, maharashtra</p>
+    </div>
+    <div style="flex:1">
+      <iframe width="100%" height="220" style="border:0;border-radius:8px" loading="lazy"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3"></iframe>
+    </div>
+  </div>
+</section>
+
+  </main><a class="whatsapp" href="https://wa.me/917261949253" target="_blank" aria-label="WhatsApp">WA</a>
+
+  <footer>
+    © <span id="year"></span> ROYAL Mobile Repairing · Built with care
+  </footer>  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
